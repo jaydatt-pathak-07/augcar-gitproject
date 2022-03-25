@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,7 +25,7 @@ SECRET_KEY = 'xib6v1@8drp@acg-**58d42(y(*vke_ur64+htv0evut*(ii*#'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -62,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'augcar.urls'
@@ -88,16 +90,17 @@ WSGI_APPLICATION = 'augcar.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'augcar',
-        'USER' : 'postgres',
-        'PASSWORD': 'admin123',
-        'HOST': 'localhost'
-    }
-}
+#DATABASES = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.postgresql',
+   #     'NAME': 'augcar',
+    #    'USER' : 'postgres',
+     #   'PASSWORD': 'admin123',
+     #   'HOST': 'localhost'
+   # }
+#}
 
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:admin123@localhost/augcar')}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -159,3 +162,7 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'purposeworking58@gmail.com'
 EMAIL_HOST_PASSWORD = 'Jaydatt@123'
 EMAIL_USE_TLS = True
+
+
+# Whitenoise settings
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
