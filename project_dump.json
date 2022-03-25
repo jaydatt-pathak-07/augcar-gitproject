@@ -1,0 +1,640 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "AL",
+        "city": "Birmingham",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 40000,
+        "description": "<p><strong>Ferrari 488 GTB is the top model in the 488 lineup and the price of 488 top model is $ 40000 Crore</strong>.It returns a certified mileage of 8.77 kmpl. This GTB variant comes with an engine putting out 660 bhp @ 8000 rpm and 760 Nm @ 3000 rpm of max power and max torque respectively.</p>",
+        "car_photo": "photos/2022/03/25/1902536891.jpg",
+        "car_photo_1": "photos/2022/03/25/1902536917.jpg",
+        "car_photo_2": "photos/2022/03/25/1902537043.jpg",
+        "car_photo_3": "photos/2022/03/25/1902537077.jpg",
+        "car_photo_4": "photos/2022/03/25/1902537082.jpg",
+        "features": "Audio Interface,Airbags,Air Conditioning,Alarm System,Power Steering,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "Inline 4 cylinder",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 6000,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "ABC147777",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-03-25T08:38:41Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2021 Jaguar F-PACE",
+        "state": "AK",
+        "city": "Juneau",
+        "color": "Black",
+        "model": "F-PACE",
+        "year": 2021,
+        "condition": "Used",
+        "price": 45000,
+        "description": "<p><strong>The F-Pace</strong> successfully transfers Jaguar&rsquo;s unique styling on a larger<strong> SUV</strong> canvas. It&rsquo;s a nice-looking SUV and is well done on the inside as well. Sure, there are some average bits, but the dash is neat, there&rsquo;s loads of space and visibility is really good too. The seats are comfy as well, and Jaguar has done well to offer an electrically reclinable rear backrest as standard.The F-Pace is a model that lives up to its &lsquo;<u><em>sport</em></u>&rsquo; utility vehicle billing. It&rsquo;s a keen handler and you get a very connected feel at the steering. Of the engines, the 250hp, 2.0-litre turbo-petrol is a better fit with the F-Pace. It&rsquo;s quick, pulls strongly and has a willingness to rev. The engine isn&rsquo;t the quietest around and the 8-speed gearbox can feel jerky at times. The 180hp, 2.0-litre diesel is adequate but no more, and sounds coarse too. As for ride quality, there&rsquo;s a firmness at low speeds but things settles down as you build pace.&nbsp;</p>",
+        "car_photo": "photos/2022/03/25/1902932503.jpg",
+        "car_photo_1": "photos/2022/03/25/1902932514.jpg",
+        "car_photo_2": "photos/2022/03/25/1902932528.jpg",
+        "car_photo_3": "photos/2022/03/25/1902932542.jpg",
+        "car_photo_4": "",
+        "features": "Audio Interface,Airbags,Seat Heating,ParkAssist,Power Steering,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "5.0 V8 Supercharged P550 SVR",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 1000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "ABC147899",
+        "milage": 12,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-03-25T09:03:10Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2020 Ford Edge",
+        "state": "GA",
+        "city": "Atlanta",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2020,
+        "condition": "Used",
+        "price": 34000,
+        "description": "<p>The Ford Edge is&nbsp;<strong>a range of crossover SUVs manufactured by the Ford Motor Company</strong>. Introduced for the 2007 model year, the Edge is the first mid-size CUV marketed by Ford in North America; the model line is currently in its second generation.</p>",
+        "car_photo": "photos/2022/03/25/1901478607.jpg",
+        "car_photo_1": "photos/2022/03/25/1901478618.jpg",
+        "car_photo_2": "photos/2022/03/25/1901478646.jpg",
+        "car_photo_3": "photos/2022/03/25/1901478672.jpg",
+        "car_photo_4": "photos/2022/03/25/1901478687.jpg",
+        "features": "Airbags,Air Conditioning,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "2.0 L EcoBoost I4",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 4000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "ABC147450",
+        "milage": 10,
+        "fuel_type": "Diesel",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2022-03-25T09:06:59Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2014 Ford F-250 Super Duty",
+        "state": "HI",
+        "city": "Hilo",
+        "color": "Black",
+        "model": "F-250 Super Duty",
+        "year": 2014,
+        "condition": "Used",
+        "price": 18000,
+        "description": "<p>*475 horsepower at 2,600 RPM with available 6.7L Power Stroke&reg;&nbsp;Diesel engine. Class is Full-Size Pickups over 8,500 lbs. GVWR. 430 horsepower and 475 lb.-ft. of torque on available 7.3L gas V8 engine. Class is Full-Size Pickups over 8,500 lbs. GVWR. Max available GCWR of 45,300 lbs. on F-450, Crew Cab. Class is Full-Size Pickups over 8,500 lbs. GVWR. Max available payload on F-350 DRW, Regular Cab, 4x2, 6.2L with F-350 Gas Heavy-Duty Payload Package. Class is Full-Size Pickups over 8,500 lbs. GVWR. See label on doorjamb for carrying capacity of a specific vehicle. <strong><em>Ford F-250 is a class!!</em></strong></p>",
+        "car_photo": "photos/2022/03/25/1894300894.jpg",
+        "car_photo_1": "photos/2022/03/25/1894300905.jpg",
+        "car_photo_2": "photos/2022/03/25/1894300920.jpg",
+        "car_photo_3": "photos/2022/03/25/1900155012.jpg",
+        "car_photo_4": "",
+        "features": "Audio Interface,Airbags,Air Conditioning,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Truck",
+        "engine": "Inline 4 cylinder",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 20000,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "ABC178959",
+        "milage": 8,
+        "fuel_type": "Diesel",
+        "no_of_owners": "3",
+        "is_featured": true,
+        "created_date": "2022-03-25T09:14:10Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2015 Toyota Corolla",
+        "state": "TX",
+        "city": "Austin",
+        "color": "White",
+        "model": "Corolla",
+        "year": 2015,
+        "condition": "Used",
+        "price": 15000,
+        "description": "<p>The&nbsp;<strong>Toyota Corolla</strong>&nbsp;is a series of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_car\" title=\"Compact car\">compact cars</a>&nbsp;(formerly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">subcompact</a>) manufactured and marketed globally by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a>. Introduced in 1966, the Corolla was the best-selling car worldwide by 1974 and has been one of the best-selling cars in the world since then. In 1997, the Corolla became the&nbsp;<a href=\"https://en.wikipedia.org/wiki/List_of_best-selling_automobiles\" title=\"List of best-selling automobiles\">best selling nameplate in the world</a>, surpassing the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Volkswagen_Beetle\" title=\"Volkswagen Beetle\">Volkswagen Beetle</a>.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-1\">[1]</a>&nbsp;Toyota reached the milestone of 50 million Corollas sold over twelve generations in 2021.&nbsp;The series has undergone several major redesigns.</p>",
+        "car_photo": "photos/2022/03/25/1900893299.jpg",
+        "car_photo_1": "photos/2022/03/25/1900893311.jpg",
+        "car_photo_2": "photos/2022/03/25/1900893319.jpg",
+        "car_photo_3": "photos/2022/03/25/1900893329.jpg",
+        "car_photo_4": "photos/2022/03/25/1900893391.jpg",
+        "features": "Cruise Control,Air Conditioning,Seat Heating,Power Steering,Reversing Camera,Bluetooth Handset",
+        "body_style": "Compact",
+        "engine": "3.4 Mid-Engine V9",
+        "transmission": "Manual",
+        "interior": "Cream",
+        "miles": 25000,
+        "doors": "5",
+        "passengers": -1,
+        "vin_no": "ABC147451",
+        "milage": 10,
+        "fuel_type": "Petrol",
+        "no_of_owners": "3",
+        "is_featured": false,
+        "created_date": "2022-03-25T09:18:20Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Jaydatt",
+        "last_name": "Pathak",
+        "designation": "CEO",
+        "photo": "photos/2022/03/25/avatar-11.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-03-25T08:32:28.312Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Mihir",
+        "last_name": "Bulsara",
+        "designation": "Support Manager",
+        "photo": "photos/2022/03/25/avatar-1.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-03-25T08:33:02.891Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Arsh",
+        "last_name": "Soni",
+        "designation": "Automobile Engineer",
+        "photo": "photos/2022/03/25/avatar-12.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-03-25T08:33:48.924Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Gaurav",
+        "last_name": "Singh",
+        "designation": "Designer",
+        "photo": "photos/2022/03/25/avatar-3.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.google.com",
+        "created_date": "2022-03-25T08:34:20.735Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Jaydatt",
+        "last_name": "Pathak",
+        "car_id": 3,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "2020 Ford Edge",
+        "city": "Surat",
+        "state": "Gujarat",
+        "email": "pjaydatt58@gmail.com",
+        "phone": "09429866909",
+        "message": "login req?",
+        "user_id": 1,
+        "create_date": "2022-03-25T14:37:47.216Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Jaydatt",
+        "last_name": "Pathak",
+        "car_id": 3,
+        "customer_need": "I'd like a history report for this",
+        "car_title": "2020 Ford Edge",
+        "city": "Surat",
+        "state": "Gujarat",
+        "email": "pjaydatt58@gmail.com",
+        "phone": "09429866909",
+        "message": "kk",
+        "user_id": 0,
+        "create_date": "2022-03-25T14:38:44.149Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Jaydatt",
+        "last_name": "Pathak",
+        "car_id": 1,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Surat",
+        "state": "Gujarat",
+        "email": "pjaydatt58@gmail.com",
+        "phone": "09429866909",
+        "message": "last",
+        "user_id": 0,
+        "create_date": "2022-03-25T14:39:51.321Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$AyDAaSBg13h8$lqSkF6WtCYCioDoVDSRl+ERxJg64TU3kZG1+w/zPL1E=",
+        "last_login": "2022-03-25T09:10:09.509Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "pjaydatt58@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-03-25T07:57:22.937Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!cCYBv6ctQSPRxhnlRffiy6iv4rlFtqbbYUivCy8u",
+        "last_login": "2022-03-25T08:01:59.659Z",
+        "is_superuser": false,
+        "username": "jaydatt",
+        "first_name": "Jaydatt",
+        "last_name": "Pathak",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-03-25T08:01:59.621Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "u21a5zrdabjx395y5oytcan4cqnqvsv8",
+    "fields": {
+        "session_data": "MDMwZjcxNmU1YjRkMDUwNjhiNjIyZGQ3M2Y5ZTExYzcyMjAwNGE2Yzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJlYTQwMGE3ZmMxNTRiN2Y0MTBjNjk3ODU1NTZlYTM2Y2NhMjM1NTJkIiwic29jaWFsYWNjb3VudF9zdGF0ZSI6W3sicHJvY2VzcyI6ImxvZ2luIiwic2NvcGUiOiIiLCJhdXRoX3BhcmFtcyI6IiJ9LCJsTm5OT1EweFI1SXQiXX0=",
+        "expire_date": "2022-04-08T08:01:09.991Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "1099376520639035",
+        "secret": "1c0b46fb521c7f9141293c2bae033cf4",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google login",
+        "client_id": "5317279310-h4ela6ssslbegfdchhm2fvtogu62vfge.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "jaydatt"
+        ],
+        "provider": "facebook",
+        "uid": "2318507004963266",
+        "last_login": "2022-03-25T08:01:59.638Z",
+        "date_joined": "2022-03-25T08:01:59.638Z",
+        "extra_data": "{\"id\": \"2318507004963266\", \"name\": \"Jaydatt Pathak\", \"first_name\": \"Jaydatt\", \"last_name\": \"Pathak\"}"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 1,
+    "fields": {
+        "app": 1,
+        "account": 1,
+        "token": "EAAPn4Ir8sjsBAKaCAqfSkKmZB9Pkf6EuFHqLR0b7bvO55Yx7laFomeVec9sKJ68o3S1bBhVPM1BYl7RYQWVpeAHCejsuCSx5pMbRTue6ZC2tvyk1mkhtiZBxCwXaVW1pXaZAK7y364QRJ2zYHBTwuSksM6k8vPaf8Tav6yIhFtjZA3NZBE8DCo8ELtwNHr2ZCdgCU9ZAG0ZB5kegRZCZBskzVoRSTRFFN7q800kGi8JZARf7mgZDZD",
+        "token_secret": "",
+        "expires_at": "2022-05-24T07:19:36.292Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-03-25T07:59:40.991Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-03-25T08:00:21.215Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-03-25T08:00:36.185Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-03-25T08:01:01.893Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-03-25T08:02:38.566Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-03-25T08:32:28.319Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Jaydatt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-03-25T08:33:02.894Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Mihir",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-03-25T08:33:48.928Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Arsh",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-03-25T08:34:20.737Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Gaurav",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-03-25T08:38:52.780Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-03-25T09:03:13.103Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2021 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-03-25T09:07:00.865Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2020 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-03-25T09:14:12.619Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2014 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-03-25T09:18:22.902Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2015 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
