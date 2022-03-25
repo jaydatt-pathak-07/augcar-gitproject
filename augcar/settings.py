@@ -25,7 +25,7 @@ SECRET_KEY = 'xib6v1@8drp@acg-**58d42(y(*vke_ur64+htv0evut*(ii*#'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['aqueous-dawn-50390.herokuapp.com', 'augustcarzone.co', 'www.augustcarzone.co']
 
