@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'storages'
     
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
@@ -146,8 +147,8 @@ STATICFILES_DIRS = [
 ]
 
 # Media settings
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+#MEDIA_URL = '/media/'
 
 # Messages
 from django.contrib.messages import constants as messages
@@ -163,6 +164,22 @@ EMAIL_PORT = config('EMAIL_PORT', default=25, cast=int)
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD', default='')
 EMAIL_HOST_USER = config('EMAIL_HOST_USER', default='')
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=False, cast=bool)
+
+AWS_ACCESS_KEY_ID = 'AKIAWSJW67A3YRO7U46N'
+
+AWS_SECRET_ACCESS_KEY = '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'
+
+AWS_STORAGE_BUCKET_NAME = 'django-bucket-augcar'
+
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+
+AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400'}
+
+AWS_DEFAULT_ACL = None
+
+DEFAULT_FILE_STORAGE = 'augcar.storages.MediaStore'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 # Whitenoise settings
